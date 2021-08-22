@@ -1,0 +1,16 @@
+<mat-card class="container-card">
+  <div>
+    <div class="container">
+        <mat-list>
+          <mat-list-item>
+            <div class="center">Results</div>
+          </mat-list-item>
+
+          <mat-list-item *ngFor="let num of numbers">
+            <div class="center">{{ num.result }}</div>
+          </mat-list-item>
+        </mat-list>
+
+    </div>
+  </div>
+</mat-card>
